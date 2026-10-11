@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    char ch;
+
+    cout << "Enter a lowercase alphabet: ";
+    cin >> ch;
+
+    ch = ch - 32;
+
+    cout << "Uppercase alphabet: " << ch << endl;
+
+    return 0;
+}
